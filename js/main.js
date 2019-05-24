@@ -20,7 +20,7 @@ $(document).ready(function () {
 function listarCursos() {
     $(".lista-cursos").html("");
     listaCursos.forEach(c => {
-        curso = '<div class="col-3">';
+        curso = '<div class="col-2">';
         curso +=    '<div class="card">';
         curso +=        '<img src="' + c[3] + '" alt="curso" class="card-img-top">';
         curso +=        '<div class="card-body">';
